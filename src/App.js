@@ -6,7 +6,8 @@ import Phone from './components/Phone';
 
 function App() {
 	return (
-		<div className="App h-screen relative flex items-center justify-center gap-x-8 bg-purple-100">
+		<div className="App h-screen relative flex items-center justify-center gap-x-12 bg-purple-100 font-poppins">
+			<Phone />
 			<Phone />
 			<img src={bottomLeft} className="absolute bottom-0 left-0" alt="Bottom Left" />
 			<img src={topRight} className="absolute top-0 right-0" alt="Top Right" />
