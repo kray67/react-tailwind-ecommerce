@@ -13,11 +13,11 @@ const CartTotals = (props) => {
                 <div className="w-2/5 font-bold text-xl text-right">Subtotal:</div>
                 <div className="w-3/5 font-bold text-4xl text-right"> ${subTotal.toFixed(2)} </div>
             </div>
-            <div className="w-3/4 self-end flex items-center justify-end">
+            <div className="w-3/4 self-end flex items-baseline justify-end">
                 <div className="w-2/5 font-bold text-xl text-right">Tax:</div>
                 <div className="w-3/5 font-bold text-4xl text-right"> ${tax.toFixed(2)} </div>
             </div>
-            <div className="w-3/4 self-end flex items-center justify-end">
+            <div className="w-3/4 self-end flex items-baseline justify-end">
                 <div className="w-2/5 font-bold text-xl text-right">Total:</div>
                 <div className="w-3/5 font-bold text-4xl text-right"> ${total.toFixed(2)} </div>
             </div>
