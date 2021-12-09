@@ -1,6 +1,3 @@
-import bottomLeft from './images/bg__left.svg'
-import topRight from './images/bg__top-right.svg'
-import bottomRight from './images/bg__btm-right.svg'
 import Menu from './components/Menu'
 import Cart from './components/Cart'
 import data from './data'
@@ -37,9 +34,9 @@ function App() {
 		<div className="App h-screen relative flex items-center justify-center gap-x-12 py-10 bg-purple-100 font-sans">
 			<Menu menu={menu} onAdd={onAdd} />
 			<Cart cart={cart} onAdd={onAdd} onRemove={onRemove} />
-			<img src={bottomLeft} className="absolute bottom-0 left-0" alt="Bottom Left" />
-			<img src={topRight} className="absolute top-0 right-0" alt="Top Right" />
-			<img src={bottomRight} className="absolute bottom-0 right-0" alt="Bottom Right" />
+			<img src="./images/bg__left.svg" className="absolute bottom-0 left-0" alt="Bottom Left" />
+			<img src="./images/bg__top-right.svg" className="absolute top-0 right-0" alt="Top Right" />
+			<img src="./images/bg__btm-right.svg" className="absolute bottom-0 right-0" alt="Bottom Right" />
 		</div>
 	)
 }
